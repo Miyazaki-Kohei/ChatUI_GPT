@@ -5,6 +5,7 @@ from langchain.callbacks import get_openai_callback
 from langchain.prompts import PromptTemplate
 from langchain.chains.summarize import load_summarize_chain
 from langchain.document_loaders import YoutubeLoader
+import youtube_transcript_api
 
 
 def init_page():
